@@ -1,0 +1,40 @@
+.linkedin-button{
+    background-color: #027BB5;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+.bg-image-custom{
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.white-title{
+    color: white;
+}
+
+.team-container{
+    width: 50%;
+    padding: 10% 10%;
+    background-color: white;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-table{
+    width: 35%;
+    margin-bottom: 5%;
+}
+.page-header{
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+

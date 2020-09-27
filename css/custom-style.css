@@ -5,10 +5,9 @@
     text-decoration: none;
 }
 .bg-image-custom{
-    background-image: url("../images/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
     position: relative;
 }
 .white-title{
@@ -52,4 +51,9 @@
     height: auto;
     padding: 25px;
     width: 50%;
+}
+
+.active{
+    font-weight: bold !important;
+    background: gray !important;
 }

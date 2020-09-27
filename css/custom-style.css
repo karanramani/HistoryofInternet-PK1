@@ -18,15 +18,29 @@
 }
 .custom-adjustment{
     margin-top: 25px;
-    background-color: #f7f7f9;
     text-align: justify;
-    padding: 70px;"
+    padding: 70px;
+    height: auto;
+    padding: 25px;
+    width: 75%;
+    color: white;
+    border-radius: 30px;
 }
-
+.custom-container-about{
+       margin-top: 25px;
+    text-align: justify;
+    padding: 70px;
+    height: auto;
+    padding: 25px;
+    width: 50%;
+    color: white;
+    border-radius: 30px;
+}
 .team-container{
     width: 50%;
     padding: 10% 10%;
    color: white;
+    border-radius: 30px;
 }
 
 .center{
@@ -55,14 +69,6 @@
     font-weight: bold;
 }
 
-.custom-container-about{
-    width: auto;
-    height: auto;
-    padding: 25px;
-    width: 50%;
-    color: white;
-}
-
 .active{
     font-weight: bold !important;
     background: gray !important;
@@ -84,3 +90,8 @@
             width: 85%;
      }
  }
+.information-pages-container {
+    text-align: justify;
+    padding: 70px;
+    color: #F0FFFF;
+}

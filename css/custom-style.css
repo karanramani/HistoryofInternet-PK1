@@ -31,10 +31,25 @@
     margin-bottom: 5%;
 }
 .page-header{
-    font-family: 'Times New Roman';
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.page-sub-header{
+    font-family: 'Sathu';
     text-align: center;
     padding: 20px;
     color: white;
     font-weight: bold;
 }
 
+.custom-container-about{
+    background: white;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    width: 50%;
+}

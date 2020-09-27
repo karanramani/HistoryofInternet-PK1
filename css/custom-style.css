@@ -1,5 +1,8 @@
 .blur-area {
   backdrop-filter: blur(30px);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
 }
 .linkedin-button{
     background-color: #027BB5;

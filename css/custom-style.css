@@ -1,3 +1,6 @@
+.blur-area {
+  backdrop-filter: blur(30px);
+}
 .linkedin-button{
     background-color: #027BB5;
     color: white;
@@ -23,7 +26,7 @@
 .team-container{
     width: 50%;
     padding: 10% 10%;
-    background-color: white;
+   color: white;
 }
 
 .center{
@@ -53,11 +56,11 @@
 }
 
 .custom-container-about{
-    background: white;
     width: auto;
     height: auto;
     padding: 25px;
     width: 50%;
+    color: white;
 }
 
 .active{

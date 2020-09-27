@@ -5,14 +5,19 @@
     text-decoration: none;
 }
 .bg-image-custom{
-    background-image: url("../images/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
     position: relative;
 }
 .white-title{
     color: white;
+}
+.custom-adjustment{
+    margin-top: 25px;
+    background-color: #f7f7f9;
+    text-align: justify;
+    padding: 70px;"
 }
 
 .team-container{
@@ -30,11 +35,49 @@
     width: 35%;
     margin-bottom: 5%;
 }
+
 .page-header{
-    font-family: 'Times New Roman';
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.page-sub-header{
+    font-family: 'Sathu';
     text-align: center;
     padding: 20px;
     color: white;
     font-weight: bold;
 }
 
+.custom-container-about{
+    background: white;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    width: 50%;
+}
+
+.active{
+    font-weight: bold !important;
+    background: gray !important;
+}
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .team-table {
+            width: 55%;
+        }
+     .custom-container-about{
+            width: 75%;
+     }
+ }
+ @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+        .team-table {
+            width: 85%;
+        }
+     .custom-container-about{
+            width: 85%;
+     }
+ }
